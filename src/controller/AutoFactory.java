@@ -19,6 +19,18 @@ public class AutoFactory {
             System.out.println(a);
         }
     }
+    public void addEqipment(int id_selected, String eq_name, double eq_price){
+        for(int i = 0; i < autos.size(); i++){
+            if(autos.get(i).getId() == id_selected){
+                autos.get(i).setEquipments(eq_name, eq_price);
+                System.out.println("Dodano wyposażenie ponadstandardowe");
+            }
+        }
+    }
+
+
+
+
     public List<Auto> getAutosList(){
         return autos;
     }

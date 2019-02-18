@@ -1,5 +1,6 @@
 package model;
 
+import java.util.HashMap;
 import java.util.Map;
 // JAVA BEANS
 public class Auto {
@@ -7,7 +8,7 @@ public class Auto {
     private String brand;
     private String model;
     private double price_basic;
-    private Map<String,Double> equipments;
+    private Map<String,Double> equipments = new HashMap<>();
     // ------------------------------------------------------------------------
     public Auto(int id, String brand, String model, double price_basic) {
         this.id = id;
