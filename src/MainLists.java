@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class MainLists {
     public static void main(String[] args) {
 //        Main m = new Main();
 //        System.out.println(m.hashCode());
@@ -30,8 +30,6 @@ public class Main {
         // na jakim indeksie jest wartość
         names.remove("Anna");
         System.out.println("Indeks Oli: " + names.indexOf("Ola"));
-
-
         // Utworzenie obiektu listy z zainicjalizowanymi wartościami
         List<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,3,4,5));
         System.out.println(numbers);
