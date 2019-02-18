@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1831a4e-dfac-42f5-a0b2-1d1a484ed51a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AutoRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutoRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/AutoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AutoFactory.java" afterDir="false" />
     </list>
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.69328856">
+    <splitter split-orientation="horizontal" split-proportion="0.6510067">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -28,11 +29,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/model/Auto.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="303">
-                  <caret line="63" selection-start-line="63" selection-end-line="63" />
+                <state relative-caret-position="404">
+                  <caret line="65" column="5" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="65" selection-end-column="5" />
                   <folding>
+                    <element signature="imports" expanded="true" />
                     <element signature="e#724#725#0" expanded="true" />
                     <element signature="e#749#750#0" expanded="true" />
+                    <element signature="e#1499#1500#0" expanded="true" />
                     <element signature="e#1546#1547#0" expanded="true" />
                   </folding>
                 </state>
@@ -42,8 +45,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/controller/AutoFactory.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="131">
-                  <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+                <state relative-caret-position="125">
+                  <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#476#477#0" expanded="true" />
@@ -60,8 +63,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/AutoRun.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+                <state relative-caret-position="300">
+                  <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
@@ -141,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550515358623" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550517001234" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -213,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550505985837</updated>
-      <workItem from="1550505991740" duration="8222000" />
+      <workItem from="1550505991740" duration="9972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8222000" />
+    <option name="totallyTimeSpent" value="9972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="0" />
@@ -239,7 +242,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.13672923" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22386059" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1541555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,11 +346,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="404">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="65" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#724#725#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
             <element signature="e#1546#1547#0" expanded="true" />
           </folding>
         </state>
@@ -362,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/AutoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        <state relative-caret-position="125">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#476#477#0" expanded="true" />

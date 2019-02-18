@@ -20,12 +20,20 @@ public class AutoFactory {
         }
     }
     public void addEqipment(int id_selected, String eq_name, double eq_price){
-        for(int i = 0; i < autos.size(); i++){
-            if(autos.get(i).getId() == id_selected){
-                autos.get(i).setEquipments(eq_name, eq_price);
-                System.out.println("Dodano wyposażenie ponadstandardowe");
+        if(searchById(id_selected) != null){
+            searchById(id_selected).setEquipments(eq_name,eq_price);
+            System.out.println("Dodano wyposażenie ponadstandardowe");
+        } else {
+            System.out.println("Nie znaleziono auta o id=" + id_selected);
+        }
+    }
+    public Auto searchById(int id_selected){
+        for(Auto a : autos){
+            if(a.getId() == id_selected){
+                return a;
             }
         }
+        return null;
     }
 
 

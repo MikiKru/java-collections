@@ -8,7 +8,9 @@ public class AutoRun {
         af.addAuto("VW","Passat", 150000);
         af.addAuto("Opel","Insignia", 100000);
         af.addEqipment(1,"Skóra naturalna", 10000);
+        af.addEqipment(1,"opony zimowe", 2000);
         af.getAllAutos();
 //        System.out.println(af.getAutosList());
+//        System.out.println(af.searchById(1));
     }
 }
