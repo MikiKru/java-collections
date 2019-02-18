@@ -3,28 +3,35 @@ package model;
 import java.util.Map;
 // JAVA BEANS
 public class Auto {
+    private int id;
     private String brand;
     private String model;
     private double price_basic;
     private Map<String,Double> equipments;
-
-    public Auto(String brand, String model, double price_basic, Map<String, Double> equipments) {
+    // ------------------------------------------------------------------------
+    public Auto(int id, String brand, String model, double price_basic) {
+        this.id = id;
         this.brand = brand;
         this.model = model;
         this.price_basic = price_basic;
-        this.equipments = equipments;
     }
 
     @Override
     public String toString() {
         return "Auto{" +
-                "brand='" + brand + '\'' +
+                "id=" + id +
+                ", brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", price_basic=" + price_basic +
                 ", equipments=" + equipments +
                 '}';
     }
 
+    // tylko getter do ID
+    public int getId() {
+        return id;
+    }
+    // -------------------------------------------------------------------------
     public String getBrand() {
         return brand;
     }
