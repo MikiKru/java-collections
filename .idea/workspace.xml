@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a1831a4e-dfac-42f5-a0b2-1d1a484ed51a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/out/production/JCollections/controller/NumberConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JCollections/controller/NumberConverter.class" afterDir="false" />
+=======
+>>>>>>> 5ff7545d9259880bff953a1b9987ea1dc4bc4b9a
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,8 +74,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainQueue.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="280">
               <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+=======
+            <state relative-caret-position="368">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+>>>>>>> 5ff7545d9259880bff953a1b9987ea1dc4bc4b9a
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,7 +160,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550603435136" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550602709155" />
+>>>>>>> 5ff7545d9259880bff953a1b9987ea1dc4bc4b9a
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -249,12 +261,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550505985837</updated>
+<<<<<<< HEAD
       <workItem from="1550505991740" duration="23386000" />
+=======
+      <workItem from="1550505991740" duration="22684000" />
+>>>>>>> 5ff7545d9259880bff953a1b9987ea1dc4bc4b9a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="23386000" />
+=======
+    <option name="totallyTimeSpent" value="22684000" />
+>>>>>>> 5ff7545d9259880bff953a1b9987ea1dc4bc4b9a
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="2" width="1547" height="829" extended-state="0" />
@@ -465,8 +485,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainQueue.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="280">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+=======
+        <state relative-caret-position="368">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+>>>>>>> 5ff7545d9259880bff953a1b9987ea1dc4bc4b9a
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
