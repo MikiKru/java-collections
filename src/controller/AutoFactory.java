@@ -27,6 +27,13 @@ public class AutoFactory {
             System.out.println("Nie znaleziono auta o id=" + id_selected);
         }
     }
+    public void deleteAutoById(int id_selected){
+        if(searchById(id_selected) != null){
+            autos.remove(searchById(id_selected));
+        } else {
+            System.out.println("Nie znaleziono auta o id=" + id_selected);
+        }
+    }
     public Auto searchById(int id_selected){
         for(Auto a : autos){
             if(a.getId() == id_selected){
