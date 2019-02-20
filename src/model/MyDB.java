@@ -11,18 +11,23 @@ public class MyDB {
     private Map<String, Integer> population = new HashMap<>();
 
     public List<Map> city = new ArrayList<>();
-
+    // metoda wpisująca wartości do map
     public void addRecord(Integer r_id, String r_name, Integer r_population){
         id.put("id",r_id);
         name.put("name", r_name);
         population.put("population", r_population);
-
+        // mapy są wpisywane do listy w celu ujenolicenia adresowania
         city.add(id);
         city.add(name);
         city.add(population);
     }
+    // nasz toString klasy modelu MyDB
     public String getRecord(){
         return "ID: " + city.get(0).get("id") + " | NAME: " + city.get(1).get("name") + " | POPULATION: " + city.get(2).get("population");
+    }
+    // metoda zwracająca id miasta
+    public int getCityId(){
+        return id.get("id");
     }
 
 }
