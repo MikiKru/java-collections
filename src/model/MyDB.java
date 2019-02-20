@@ -6,14 +6,16 @@ import java.util.List;
 import java.util.Map;
 
 public class MyDB {
+    // statyczny nr do związany z klasą a nie z obiektem
+    public static int id_global;
     private Map<String, Integer> id = new HashMap<>();
     private Map<String, String> name = new HashMap<>();
     private Map<String, Integer> population = new HashMap<>();
 
     public List<Map> city = new ArrayList<>();
     // metoda wpisująca wartości do map
-    public void addRecord(Integer r_id, String r_name, Integer r_population){
-        id.put("id",r_id);
+    public void addRecord(String r_name, Integer r_population){
+        id.put("id", ++id_global);
         name.put("name", r_name);
         population.put("population", r_population);
         // mapy są wpisywane do listy w celu ujenolicenia adresowania

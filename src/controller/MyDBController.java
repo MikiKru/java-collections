@@ -10,11 +10,11 @@ public class MyDBController {
     private List<MyDB> city_table = new ArrayList();
 
     // metoda dodająca miasto do listy miast
-    public void addCity(Integer r_id, String r_name, Integer r_population){
+    public void addCity(String r_name, Integer r_population){
         // Obiekt klasy kodelu MyBD -> daje dostęp do pól i metod kalsy MyDB
         MyDB db = new MyDB();
         // dodanie wartości do map
-        db.addRecord(r_id,r_name,r_population);
+        db.addRecord(r_name,r_population);
         // zapisuje obiekt miasta z przypisanymi wartościami
         // dla wszystkich map
         city_table.add(db);
