@@ -28,5 +28,6 @@ public class MessageController {
         System.out.println("Usuwam: " + mc.deleteMessage());
         System.out.println("Odczyt: " + mc.getMessage());
         System.out.println(mc.messages);
+
     }
 }
