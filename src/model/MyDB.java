@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Map;
 
 public class MyDB {
-    Map<String, Integer> id = new HashMap<>();
-    Map<String, String> name = new HashMap<>();
-    Map<String, Integer> population = new HashMap<>();
+    private Map<String, Integer> id = new HashMap<>();
+    private Map<String, String> name = new HashMap<>();
+    private Map<String, Integer> population = new HashMap<>();
 
-    List<Map> city = new ArrayList<>();
+    public List<Map> city = new ArrayList<>();
 
     public void addRecord(Integer r_id, String r_name, Integer r_population){
         id.put("id",r_id);
