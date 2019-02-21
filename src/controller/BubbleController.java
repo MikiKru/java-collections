@@ -31,8 +31,14 @@ public class BubbleController {
         list.set(i1, list.get(i2));
         list.set(i2, tmp);
     }
+    public List insert(int newElement, String type){
+        list.add(newElement);
+        return bubbleSort(type);
+    }
     public static void main(String[] args) {
         BubbleController bc = new BubbleController(new ArrayList<>(Arrays.asList(1, 3, 4, 2, 7, 3, 2, 16, 7, 4, 2, 111)));
         System.out.println(bc.bubbleSort("DESC"));
+        System.out.println(bc.insert(123,"DESC"));
+        
     }
 }
