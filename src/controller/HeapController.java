@@ -8,13 +8,18 @@ public class HeapController {
     // ---------------ALGORYTM SORTOWANIA-----------------------------
     private List<Integer> sortedlist = new ArrayList<>();
 
-    public void heapSorting(List<Integer> unsortedList){
+    public void heapSorting(List<Integer> unsortedList, String type){
         while(unsortedList.size() > 0) {
             // 1. Tworzymy kopiec
             unsortedList = buildHeap(unsortedList);
             // 2. Wycinamy wartość elementu o indeksie 0
-            System.out.print(unsortedList.remove(0) + " ");
+            if(type.toUpperCase().equals("DESC")) {
+                sortedlist.add(unsortedList.remove(0));
+            } else{
+                sortedlist.add(0, unsortedList.remove(0));
+            }
         }
+        System.out.println(sortedlist);
     }
     // ---------------ALGORYTM KOPCA----------------------------------
     public List buildHeap(List<Integer> arr) {
@@ -44,6 +49,6 @@ public class HeapController {
         HeapController hc = new HeapController();
 //        hc.buildHeap(new ArrayList<>());
         List<Integer> list = new ArrayList<>(Arrays.asList(5,2,6,5,7,1));
-        hc.heapSorting(list);
+        hc.heapSorting(list, "ASC");
     }
 }
