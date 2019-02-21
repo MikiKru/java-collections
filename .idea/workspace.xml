@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1831a4e-dfac-42f5-a0b2-1d1a484ed51a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/controller/HeapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HeapController.java" afterDir="false" />
-    </list>
+    <list default="true" id="a1831a4e-dfac-42f5-a0b2-1d1a484ed51a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +11,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/HeapController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="399">
+              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/BubbleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="63" column="61" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/heap/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/controller/BubbleController.java" />
         <option value="$PROJECT_DIR$/src/controller/HeapController.java" />
+        <option value="$PROJECT_DIR$/src/SortingTest.java" />
       </list>
     </option>
   </component>
@@ -107,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550773926523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550774953759" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -124,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapController">
+  <component name="RunManager" selected="Application.SortingTest">
     <configuration name="BubbleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.BubbleController" />
       <module name="JCollections" />
@@ -165,26 +188,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controller.MessageController" />
+    <configuration name="SortingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingTest" />
       <module name="JCollections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingTest" />
         <item itemvalue="Application.HeapController" />
         <item itemvalue="Application.BubbleController" />
         <item itemvalue="Application.MaxHeap" />
         <item itemvalue="Application.MainDB" />
-        <item itemvalue="Application.MessageController" />
       </list>
     </recent_temporary>
   </component>
@@ -199,12 +216,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550505985837</updated>
       <workItem from="1550505991740" duration="26209000" />
-      <workItem from="1550652426875" duration="22130000" />
+      <workItem from="1550652426875" duration="23828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48339000" />
+    <option name="totallyTimeSpent" value="50037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1548" height="824" extended-state="0" />
@@ -216,10 +233,10 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.16129032" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16129032" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.13672923" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.037572253" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21098267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,22 +537,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/BubbleController.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/HeapController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="399">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/HeapController.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/BubbleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="391">
+          <caret line="63" column="61" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
