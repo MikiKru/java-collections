@@ -1,8 +1,12 @@
 package controller;
 
+import java.lang.reflect.Array;
+import java.time.Duration;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class BubbleController {
     List<Integer> list = new ArrayList<>();
@@ -44,8 +48,20 @@ public class BubbleController {
         return bubbleSort(type);
     }
     public static void main(String[] args) {
-        BubbleController bc = new BubbleController(new ArrayList<>(Arrays.asList(1, 3, 4, 2, 7, 8, 9, 10, 21, 100, 55, 200)));
-        System.out.println(bc.bubbleSort("ASC"));
+        List<Integer> list = new ArrayList<>();
+        Random rnd = new Random();
+        for (int i = 0; i < 100000; i++){
+            list.add(rnd.nextInt(100));
+        }
+        BubbleController bc = new BubbleController(list);
+        // ---------------------------------------------------
+        LocalTime t_start = LocalTime.now();
+        System.out.println(bc.bubbleSort("DESC"));
+        LocalTime t_stop = LocalTime.now();
+        // ---------------------------------------------------
+        // Duration -> klasa zawierająca metody do porównywania obiektów czasowych
+        // Period -> klasa zawierająca metody do porównywania obiektów datowych
+        System.out.println(Duration.between(t_start,t_stop));
 //        System.out.println(bc.insert(123,"DESC"));
 
     }
