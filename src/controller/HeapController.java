@@ -5,11 +5,23 @@ import java.util.Arrays;
 import java.util.List;
 
 public class HeapController {
-    public void buildHeap(List<Integer> arr) {
+    // ---------------ALGORYTM SORTOWANIA-----------------------------
+    private List<Integer> sortedlist = new ArrayList<>();
+
+    public void heapSorting(List<Integer> unsortedList){
+        while(unsortedList.size() > 0) {
+            // 1. Tworzymy kopiec
+            unsortedList = buildHeap(unsortedList);
+            // 2. Wycinamy wartość elementu o indeksie 0
+            System.out.print(unsortedList.remove(0) + " ");
+        }
+    }
+    // ---------------ALGORYTM KOPCA----------------------------------
+    public List buildHeap(List<Integer> arr) {
         for (int i = (arr.size() - 1) / 2; i >= 0; i--) {
             buildMaxHeap(arr, i, arr.size() - 1);
         }
-        System.out.println(arr);
+        return arr;
     }
     public void buildMaxHeap(List<Integer> arr, int i, int N) {
         int left = 2 * i;
@@ -27,8 +39,11 @@ public class HeapController {
         arr.set(i, arr.get(max));
         arr.set(max, tmp);
     }
+    // -------------------------------------------------------------------
     public static void main(String[] args) {
         HeapController hc = new HeapController();
-        hc.buildHeap(new ArrayList<>(Arrays.asList(5,2,6,5,7,1)));
+//        hc.buildHeap(new ArrayList<>());
+        List<Integer> list = new ArrayList<>(Arrays.asList(5,2,6,5,7,1));
+        hc.heapSorting(list);
     }
 }
