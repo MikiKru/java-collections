@@ -9,6 +9,7 @@ public class HeapController {
     private List<Integer> sortedlist = new ArrayList<>();
 
     public void heapSorting(List<Integer> unsortedList, String type){
+        sortedlist.clear();
         while(unsortedList.size() > 0) {
             // 1. Tworzymy kopiec
             unsortedList = buildHeap(unsortedList);
