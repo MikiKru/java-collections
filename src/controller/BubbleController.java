@@ -12,16 +12,24 @@ public class BubbleController {
     }
 
     public List bubbleSort(String type) {
+        int counter = 0;
         // pętla iterująca po testach
         for (int j = 1; j < list.size(); j++) {
+            counter = 0;
             // pętla iterująca po wartościach
             for (int i = 1; i < list.size(); i++) {
                 if (list.get(i - 1) < list.get(i) && type.toUpperCase().equals("DESC")) {
-                        swap(i - 1, i);
+                    swap(i - 1, i);
+                    counter++;
                 }
                 if (list.get(i - 1) > list.get(i) && type.toUpperCase().equals("ASC")) {
                     swap(i - 1, i);
+                    counter++;
                 }
+            }
+            System.out.println(j + " " + list);
+            if(counter == 0){
+                return list;
             }
         }
         return list;
@@ -36,9 +44,9 @@ public class BubbleController {
         return bubbleSort(type);
     }
     public static void main(String[] args) {
-        BubbleController bc = new BubbleController(new ArrayList<>(Arrays.asList(1, 3, 4, 2, 7, 3, 2, 16, 7, 4, 2, 111)));
-        System.out.println(bc.bubbleSort("DESC"));
-        System.out.println(bc.insert(123,"DESC"));
-        
+        BubbleController bc = new BubbleController(new ArrayList<>(Arrays.asList(1, 3, 4, 2, 7, 8, 9, 10, 21, 100, 55, 200)));
+        System.out.println(bc.bubbleSort("ASC"));
+//        System.out.println(bc.insert(123,"DESC"));
+
     }
 }

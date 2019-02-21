@@ -29,6 +29,6 @@ public class HeapController {
     }
     public static void main(String[] args) {
         HeapController hc = new HeapController();
-        hc.buildHeap(new ArrayList<>(Arrays.asList(5,9,2,6,5,7,1)));
+        hc.buildHeap(new ArrayList<>(Arrays.asList(5,2,6,5,7,1)));
     }
 }
