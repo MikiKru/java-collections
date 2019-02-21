@@ -31,7 +31,7 @@ public class BubbleController {
                     counter++;
                 }
             }
-            System.out.println(j + " " + list);
+//            System.out.println(j + " " + list);
             if(counter == 0){
                 return list;
             }
